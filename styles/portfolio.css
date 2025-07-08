@@ -86,6 +86,7 @@ nav ul{
     background-color: #FFF8F3;
 } 
 
+
 /* about */
 .about{
     border-radius: 10px;
@@ -149,10 +150,21 @@ main section{
 
 /* resume section styles */
 
-.resume-container{
+/* .resume-container{
     display: flex;
     gap: 24px;
-}
+} */
+ .resume-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+ }
+ .resume-column{
+    flex: 1 1 45%;
+    min-width: 300px;
+ }
 .experience-sub-title{
     font-size: 20px;
     font-weight: 600px;
@@ -181,6 +193,123 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     margin-bottom:24px ;
     border: none;
 }
+.phone-number {
+    display: none;
+    margin-left: 10px;
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.contact-btn:hover .phone-number {
+    display: inline;
+}
+/* .phone-number,
+#phone-number {
+    color: black; 
+    font-weight: bold;
+    margin-left: 10px;
+}
+.cv-message {
+    display: none;
+    margin-left: 10px;
+    color: black; /* স্পষ্ট কালো */
+    /* font-weight: bold;
+} */ */
+
+ /* .download-cv-btn:hover .cv-message {
+    display: inline;
+}  */
+/* .download-cv-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.cv-message {
+    display: none;
+    margin-top: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.download-cv-wrapper:hover .cv-message {
+    display: block;
+} */
+
+.button-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.download-cv-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-message {
+    display: none;
+    margin-top: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.download-cv-wrapper:hover .cv-message {
+    display: block;
+}
+
+.phone-number {
+    display: none;
+    margin-left: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.contact-btn:hover .phone-number {
+    display: inline;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button-row,
+.resume-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1, h2, h3, h4, p {
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    h1 { font-size: 24px; }
+    p { font-size: 14px; }
+}
+
+
+
 
 
 
