@@ -84,18 +84,23 @@ nav ul{
 }
 .secodary-bg{
     background-color: #FFF8F3;
-}
+} 
+
 /* about */
 .about{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
+    
 }
 /* main styles */
 main{
     max-width: 1140px;
     margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 .item-description{
@@ -105,3 +110,29 @@ main{
     display: flex;
     justify-content: space-around;
 }
+.text-center{
+    text-align: center;
+}
+/* skills-section-style */
+.skills-container{
+        display: flex;  
+        gap: 24px;   
+}
+.skills{
+    padding: 30px;
+    border-radius:5px ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills img{
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
